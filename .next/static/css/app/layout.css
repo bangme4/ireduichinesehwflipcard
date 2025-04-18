@@ -106,8 +106,6 @@
     --spacing: 0.25rem;
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
-    --text-xl: 1.25rem;
-    --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-7xl: 4.5rem;
@@ -471,15 +469,6 @@
       background-color: color-mix(in oklab, var(--color-white) 70%, transparent);
     }
   }
-  .bg-\[url\(https\:\/\/4kwallpapers\.com\/images\/walls\/thumbs_3t\/2104\.jpg\)\] {
-    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/2104.jpg);
-  }
-  .bg-cover {
-    background-size: cover;
-  }
-  .bg-center {
-    background-position: center;
-  }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
@@ -495,31 +484,18 @@
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
   }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .text-green-300 {
-    color: var(--color-green-300);
+  .text-black {
+    color: var(--color-black);
   }
   .text-green-600 {
     color: var(--color-green-600);
   }
-  .text-green-900 {
-    color: var(--color-green-900);
-  }
-  .text-red-300 {
-    color: var(--color-red-300);
-  }
   .text-red-600 {
     color: var(--color-red-600);
-  }
-  .text-red-900 {
-    color: var(--color-red-900);
   }
   .text-white {
     color: var(--color-white);
@@ -590,6 +566,16 @@
         --tw-scale-z: 105%;
         scale: var(--tw-scale-x) var(--tw-scale-y);
       }
+    }
+  }
+  .md\:h-0 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:w-0 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 0);
     }
   }
 }
