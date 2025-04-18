@@ -111,9 +111,6 @@ function Page() {
 
   return (
     <>
-      {/* <div className="absolute w-screen md:w-0 md:h-0 h-screen bg-white flex justify-center items-center text-black z-50">
-        // Sorry no mobile version //{" "}
-      </div> */}
       <ReactPlayer
         url="https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
         playing
