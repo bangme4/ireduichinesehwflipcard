@@ -112,7 +112,7 @@ function Page() {
   return (
     <>
       <ReactPlayer
-        url="https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+        url="https://www.youtube.com/watch?v=LTqliq2Su-Q"
         playing
         loop
         muted
@@ -126,7 +126,7 @@ function Page() {
               showinfo: 0,
               modestbranding: 1,
               loop: 1,
-              playlist: "hxhi2ttHplw", // needed for loop to work
+              playlist: "LTqliq2Su-Q", // needed for loop to work
               disablekb: 1, // disable keyboard
               rel: 0, // disable related videos
             },
